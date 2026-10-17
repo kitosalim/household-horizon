@@ -1,206 +1,259 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en-AU">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 18.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 8.6px '.SF NS'; color: #fee58f; -webkit-text-stroke: #fee58f}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.8px '.SF NS'; color: #147e71; -webkit-text-stroke: #147e71; background-color: #ffffff; background-color: rgba(255, 255, 255, 0.94)}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.8px 'Helvetica Neue'; color: #392a01; -webkit-text-stroke: #392a01; background-color: #fff2cd}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31; background-color: #eefaf6; min-height: 18.0px}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31; background-color: #ffffff; background-color: rgba(255, 255, 255, 0.94)}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.8px 'Helvetica Neue'; color: #3d5a60; -webkit-text-stroke: #3d5a60}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px '.SF NS'; color: #ffffff; color: rgba(255, 255, 255, 0.94); -webkit-text-stroke: rgba(255, 255, 255, 0.94); background-color: #147e71}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px '.SF NS'; color: #147e71; -webkit-text-stroke: #147e71; background-color: #dbf4ed}
-    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.1px 'Helvetica Neue'; color: #3d5a60; -webkit-text-stroke: #3d5a60; min-height: 12.0px}
-    p.p15 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #3d5a60; -webkit-text-stroke: #3d5a60}
-    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Times; color: #132c31; -webkit-text-stroke: #132c31}
-    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.4px 'Helvetica Neue'; color: #3d5a60; -webkit-text-stroke: #3d5a60}
-    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 9.4px 'Helvetica Neue'; color: #3d5a60; -webkit-text-stroke: #3d5a60}
-    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 9.4px 'Helvetica Neue'; color: #3d5a60; -webkit-text-stroke: #3d5a60}
-    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31; min-height: 18.0px}
-    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.8px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31}
-    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 8.6px '.SF NS'; color: #3d5a60; -webkit-text-stroke: #3d5a60; background-color: #dbf4ed}
-    p.p24 {margin: 0.0px 0.0px 10.1px 0.0px; font: 10.1px 'Helvetica Neue'; color: #3d5a60; -webkit-text-stroke: #3d5a60}
-    p.p25 {margin: 0.0px 0.0px 10.1px 0.0px; font: 10.1px 'Helvetica Neue'; color: #3d5a60; -webkit-text-stroke: #3d5a60; min-height: 12.0px}
-    p.p26 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px '.SF NS'; color: #ffffff; color: rgba(255, 255, 255, 0.94); -webkit-text-stroke: rgba(255, 255, 255, 0.94)}
-    p.p27 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px '.SF NS'; color: #147e71; -webkit-text-stroke: #147e71}
-    p.p28 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31; min-height: 13.0px}
-    p.p29 {margin: 0.0px 0.0px 11.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31}
-    p.p31 {margin: 0.0px 0.0px 10.1px 0.0px; font: 10.1px 'Helvetica Neue'; color: #473401; -webkit-text-stroke: #473401}
-    p.p32 {margin: 0.0px 0.0px 10.1px 0.0px; font: 10.1px 'Helvetica Neue'; color: #bed4dd; -webkit-text-stroke: #bed4dd}
-    p.p33 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.8px 'Helvetica Neue'; color: #eefaf6; -webkit-text-stroke: #eefaf6; background-color: #132c31; min-height: 12.0px}
-    li.li30 {margin: 0.0px 0.0px 8.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31}
-    span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; background-color: #0d3950; text-shadow: 0.0px 1.0px 2.0px rgba(255, 255, 255, 0)}
-    span.s3 {font: 10.8px '.SF NS'; text-decoration: underline ; font-kerning: none}
-    span.s4 {font-kerning: none; background-color: rgba(255, 255, 255, 0.94)}
-    span.s5 {font-kerning: none; background-color: #eefaf6}
-    span.s6 {font: 16.0px '.Apple Color Emoji UI'; font-kerning: none}
-    span.s7 {font: 16.0px '.AppleJapaneseFont'; font-kerning: none}
-    span.s8 {font-kerning: none; background-color: #147e71}
-    span.s9 {font-kerning: none; background-color: #dbf4ed}
-    span.s10 {font: 16.0px '.AppleJapaneseFont'; font-kerning: none; background-color: #147e71}
-    span.s11 {background-color: rgba(255, 255, 255, 0.94); -webkit-text-stroke: 0px #000000}
-    span.s12 {font-kerning: none; color: #473401; background-color: #fee598; -webkit-text-stroke: 0px #473401}
-    span.s13 {font-kerning: none; color: #3d5a60; background-color: rgba(255, 255, 255, 0.94); -webkit-text-stroke: 0px #3d5a60}
-    span.s14 {font-kerning: none; background-color: #fee598}
-    span.s15 {text-decoration: underline ; font-kerning: none; color: #90e6d4; -webkit-text-stroke: 0px #90e6d4}
-    span.s16 {font: 16.0px '.AppleKoreanFont'; font-kerning: none}
-    ul.ul1 {list-style-type: disc}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Household Horizon | Interest-Free Family Finance Planner</title>
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--ink:#1d2a26;--mute:#5d6b66;--line:#dfe3df;--acc:#0f6b57;--acc2:#e8f3ef;--warn:#b4531a;--good:#0f6b57;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a17;--card:#1b2622;--ink:#e8efec;--mute:#9aa9a3;--line:#2c3a35;--acc:#4fc4a4;--acc2:#1f3a32;--warn:#f0a070;--good:#4fc4a4}}
+:root[data-theme="dark"]{--bg:#121a17;--card:#1b2622;--ink:#e8efec;--mute:#9aa9a3;--line:#2c3a35;--acc:#4fc4a4;--acc2:#1f3a32;--warn:#f0a070;--good:#4fc4a4}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.6rem;margin:0 0 4px}h2{font-size:1.2rem;margin:0 0 12px}h3{font-size:1rem;margin:16px 0 8px}
+.sub{color:var(--mute);margin:0 0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin:16px 0}
+.toggles{display:flex;flex-wrap:wrap;gap:8px}
+.toggles label{display:flex;gap:8px;align-items:center;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.f label{display:block;font-size:.82rem;color:var(--mute);margin-bottom:3px}
+input,select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:14px}
+.stat{background:var(--acc2);border-radius:10px;padding:12px}
+.stat b{display:block;font-size:1.3rem;color:var(--acc)}.stat span{font-size:.82rem;color:var(--mute)}
+.stat.bad b{color:var(--warn)}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th,td{padding:7px 8px;text-align:right;border-bottom:1px solid var(--line)}th:first-child,td:first-child{text-align:left}
+.scroll{overflow-x:auto}
+.note{font-size:.84rem;color:var(--mute);margin-top:10px}
+.ok{color:var(--good);font-weight:600}.no{color:var(--warn);font-weight:600}
+svg{width:100%;height:auto;display:block}
+.ax{stroke:var(--line)}.t{fill:var(--mute);font-size:11px}
+.l1{stroke:var(--acc);fill:none;stroke-width:2.5}.l2{stroke:var(--warn);fill:none;stroke-width:2;stroke-dasharray:6 4}
+.row{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) 78px 66px;gap:8px;align-items:center;padding:6px 0;border-bottom:1px solid var(--line)}.row .nm{font-size:.9rem}.row .nm i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}.row input{padding:6px 8px}.pct{font-size:.78rem;color:var(--mute);text-align:right}.tag{font-size:.72rem;text-align:center;border-radius:999px;padding:3px 4px;font-weight:600}.tag.g{background:#d6efe4;color:#0b5a40}.tag.am{background:#ffe7bf;color:#8a4b00}.tag.rd{background:#fbd3cc;color:#8f2415}.tag.nu{background:var(--acc2);color:var(--mute)}.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;align-items:start}.bar{display:grid;grid-template-columns:minmax(80px,1fr) 2fr auto;gap:8px;align-items:center;font-size:.84rem;margin:7px 0}.bar .b{height:10px;border-radius:5px;background:var(--warn)}.btn{padding:10px 16px;border:0;border-radius:10px;background:var(--acc);color:var(--card);font:inherit;font-weight:600;cursor:pointer}.btn.s{background:var(--acc2);color:var(--acc);border:1px solid var(--line)}input[type=range]{padding:0;accent-color:var(--acc)}.hm{display:none!important}.sl{transition:stroke-width .15s;cursor:pointer}.sl:hover{stroke-width:42}#tip{position:absolute;display:none;pointer-events:none;background:var(--ink);color:var(--card);padding:6px 10px;border-radius:8px;font-size:.8rem;max-width:90%;z-index:5}.lb{font-size:11px;fill:var(--ink)}.ld{stroke:var(--mute);fill:none;stroke-width:1}.fi{display:grid;grid-template-columns:64px 1fr;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);align-items:start}.fab{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));display:flex;gap:6px;z-index:20;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px;box-shadow:0 4px 18px rgba(0,0,0,.2)}.fab button:disabled{opacity:.4;cursor:default}.wrap{padding-bottom:96px}.hide{display:none!important}
+
+:root{--bg:#f1fbf8;--card:rgba(255,255,255,.94);--ink:#173a40;--mute:#4d6d73;--line:#cfe9e4;--acc:#0b8f84;--acc2:#e1f6f1;--warn:#d9731a;--good:#0b8f84}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d3340;--card:rgba(18,70,84,.92);--ink:#eafaf6;--mute:#a9d3d3;--line:#2d7280;--acc:#4fe3c8;--acc2:#1d5d6b;--warn:#ffb866;--good:#4fe3c8}}
+:root[data-theme="dark"]{--bg:#0d3340;--card:rgba(18,70,84,.92);--ink:#eafaf6;--mute:#a9d3d3;--line:#2d7280;--acc:#4fe3c8;--acc2:#1d5d6b;--warn:#ffb866;--good:#4fe3c8}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(circle at 10% 6%,rgba(255,211,106,.38),transparent 38%),radial-gradient(circle at 92% 18%,rgba(76,201,224,.28),transparent 42%),radial-gradient(circle at 50% 100%,rgba(143,227,200,.35),transparent 45%),var(--bg);background-attachment:fixed}
+body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:url('data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2772%27 height=%2772%27%3E%3Cpath d=%27M36 6l7 23 23 7-23 7-7 23-7-23-23-7 23-7z%27 fill=%27none%27 stroke=%27%230b8f84%27 stroke-opacity=%27.13%27/%3E%3C/svg%3E')}
+.card{box-shadow:0 4px 18px rgba(11,143,132,.08);backdrop-filter:blur(4px)}
+.hero{position:relative;overflow:hidden;border-radius:22px;padding:28px 24px 34px;margin:4px 0 12px;color:#fff;background:linear-gradient(120deg,#0b8f84 0%,#25b0ad 55%,#4cc9e0 100%);box-shadow:0 10px 30px rgba(11,143,132,.25)}
+.hero h1{color:#fff;font-size:1.8rem;position:relative}.hero p{position:relative;color:#effffb;max-width:36em;margin:6px 0 0}.hsvg{position:absolute;right:0;bottom:0;width:min(60%,440px);height:100%}
+.nav{display:flex;gap:8px;overflow-x:auto;padding:2px 0 10px}.nav a{white-space:nowrap;text-decoration:none;color:var(--acc);background:var(--card);border:1px solid var(--line);padding:9px 15px;border-radius:999px;font-weight:600;font-size:.9rem}
+.prof{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:16px}.pb{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px}
+.btn{min-height:44px}
+.toast{position:fixed;left:50%;transform:translateX(-50%) translateY(16px);bottom:calc(84px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;opacity:0;pointer-events:none;transition:.25s;z-index:30;max-width:92vw;font-size:.9rem}.toast.on{opacity:1;transform:translateX(-50%)}
+.lb{font-size:13px}
+@media(max-width:600px){.wrap{padding:10px 12px 130px}.card{padding:14px;border-radius:16px}.grid,.stats,.prof{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}input,select{font-size:16px;padding:11px 10px}.row{grid-template-columns:minmax(0,1fr) 84px 64px;row-gap:4px}.row .nm{grid-column:1/-1}.row.hd{display:none}.hero{padding:20px 16px 26px}.hero h1{font-size:1.4rem}.hsvg{opacity:.3;width:85%}.lb{font-size:15.5px}.fab{left:12px;right:12px;justify-content:space-between}.fab .btn{flex:1;padding:8px 6px;font-size:.85rem}h2{font-size:1.1rem}}
+
+.page{max-width:1660px;margin:0 auto}
+.ad{display:none}
+.adbox{width:300px}.adlbl{display:block;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);text-align:center;margin-bottom:4px}
+.adslot{width:300px;height:600px;display:flex;align-items:center;justify-content:center;text-align:center;border:2px dashed var(--line);border-radius:12px;background:var(--card);color:var(--mute);font-size:.85rem;overflow:hidden}
+@media(min-width:1320px){.page{display:grid;grid-template-columns:300px minmax(0,1fr) 300px;gap:20px;padding:0 12px;align-items:start}.ad{display:block;position:sticky;top:16px;align-self:start;padding-top:16px}.wrap{max-width:980px;width:100%;margin:0 auto}.fab{left:50%;right:auto;transform:translateX(-50%)}}
+.notice{background:rgba(255,209,102,.25);color:var(--ink);border:1px solid #e0b84a;border-radius:12px;padding:12px 14px;margin:0 0 12px;font-size:.9rem}.notice a{color:inherit;font-weight:600}
+.disc{font-size:.92rem}.disc li{margin:8px 0}.disc ul{padding-left:20px}.ph{background:#ffe9a8;color:#5a4300;padding:0 4px;border-radius:4px}
+.brand{display:flex;align-items:center;gap:14px;position:relative}.logo{width:68px;height:68px;flex:none;filter:drop-shadow(0 4px 8px rgba(0,0,0,.22))}.hero h1{margin:0;line-height:1.1}.tag{color:#fff6c9;font-weight:600;letter-spacing:.02em;margin-top:3px}
+@media(max-width:600px){.logo{width:52px;height:52px}.tag{font-size:.9rem}}
+
+body{background:radial-gradient(circle at 88% 4%,rgba(251,191,36,.20),transparent 34%),radial-gradient(circle at 8% 92%,rgba(45,212,191,.20),transparent 40%),linear-gradient(160deg,#0a2540 0%,#0d3b57 48%,#0b5560 100%);background-attachment:fixed}
+body::before{background-image:url('data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2772%27 height=%2772%27%3E%3Cpath d=%27M36 6l7 23 23 7-23 7-7 23-7-23-23-7 23-7z%27 fill=%27none%27 stroke=%27%23ffffff%27 stroke-opacity=%27.06%27/%3E%3C/svg%3E')}
+.hero{background-color:#0b4a63;background-image:linear-gradient(120deg,#0b3f5c 0%,#0d6a7d 55%,#17a2b8 100%);border:1px solid rgba(255,255,255,.14);box-shadow:0 12px 32px rgba(0,0,0,.35)}
+.hero h1,.hero p{color:#fff!important;text-shadow:0 1px 2px rgba(0,0,0,.35)}.hero .tag{color:#ffe9a0!important;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.wrap>.note,.adlbl{color:#c9dce4}.wrap>.note a{color:#9fe9dc}
+.notice{background:#fff4d6;color:#4a3700;border-color:#e0b84a}
+</style>
+<!-- Google AdSense: paste your AdSense script tag here, then replace each .adslot placeholder (left and right, 300x600) with your ad unit code. -->
 </head>
 <body>
-<p class="p1"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"></span><br></p>
-<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 21.6px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s2"><b>Household Horizon</b><b></b></span></h1>
-<p class="p3"><span class="s2"><b>Interest-Free Family Finance Planner</b><b></b></span></p>
-<p class="p4"><span class="s2">Budget, super, assets and home finance in one place. No interest-bearing assumptions: you choose the expected returns for options such as screened funds, gold, property or business.</span></p>
-<p class="p5"><span class="s1"><b>Snapshot</b></span></p>
-<p class="p5"><span class="s1"><b>Budget</b></span></p>
-<p class="p5"><span class="s1"><b>Retirement</b></span></p>
-<p class="p5"><span class="s1"><b>Assets</b></span></p>
-<p class="p5"><span class="s1"><b>Home finance</b></span></p>
-<p class="p5"><span class="s1"><b>Report</b></span></p>
-<p class="p5"><span class="s1"><b>Disclaimer</b></span></p>
-<p class="p6"><span class="s1"><b>Information only.</b> This tool gives general information and estimates. It is not financial, investment, tax, legal or religious advice. Please get your own advice from licensed professionals before acting. </span><span class="s3"><b>Read the full disclaimer</b></span><span class="s1">.</span></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 14.4px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>Choose what you need</b><b></b></span></h2>
-<p class="p8"><span class="s1"></span><br></p>
-<p class="p9"><span class="s1">Household budget</span></p>
-<p class="p8"><span class="s1"></span><br></p>
-<p class="p9"><span class="s1">Retirement plan</span></p>
-<p class="p8"><span class="s1"></span><br></p>
-<p class="p9"><span class="s1">Assets &amp; liabilities</span></p>
-<p class="p8"><span class="s1"></span><br></p>
-<p class="p9"><span class="s1">Home finance payoff</span></p>
-<p class="p8"><span class="s1"></span><br></p>
-<p class="p9"><span class="s1">Include a partner</span></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 14.4px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>Household snapshot</b><b></b></span></h2>
-<p class="p10"><span class="s4">Profile name</span></p>
-<p class="p11"><span class="s5">My plan</span></p>
-<p class="p10"><span class="s4">Saved in this browser</span></p>
-<p class="p12"><span class="s6">💾</span><span class="s1"><b> Save</b></span></p>
-<p class="p13"><span class="s1"><b>Load</b></span></p>
-<p class="p13"><span class="s1"><b>Delete</b></span></p>
-<p class="p13"><span class="s7"><b>⬇</b></span><span class="s1"><b> Save to device</b></span></p>
-<p class="p13"><span class="s6">📂</span><span class="s1"><b> Open file</b></span></p>
-<p class="p13"><span class="s1"><b>Reset</b></span></p>
-<p class="p14"><span class="s1"></span><br></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 14.4px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>1. Household budget</b><b></b></span></h2>
-<p class="p15"><span class="s4">Take-home pay and spending in one place. Whatever is left over can fund extra home finance payments and retirement saving.</span></p>
-<p class="p10"><span class="s4">Pay entry</span></p>
-<p class="p16"><span class="s5">Annual salary before tax (auto take-home)I know my take-home pay</span></p>
-<p class="p10"><span class="s4">Your annual salary before tax ($)</span></p>
-<p class="p10"><span class="s4">Partner annual salary before tax ($)</span></p>
-<p class="p10"><span class="s4">Your take-home pay per period ($)</span></p>
-<p class="p10"><span class="s4">Other income: rent, benefits, side work ($)</span></p>
-<p class="p10"><span class="s4">I enter amounts per</span></p>
-<p class="p16"><span class="s5">MonthFortnight</span></p>
-<h3 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>Expenses</b><b></b></span></h3>
-<p class="p18"><span class="s4">Expense</span></p>
-<p class="p18"><span class="s4">Per month</span></p>
-<p class="p19"><span class="s4">Share / typical</span></p>
-<p class="p20"><span class="s4">Status</span></p>
-<p class="p21"><span class="s1"></span><br></p>
-<p class="p22"><span class="s4">Regular savings (goes to cash assets)</span></p>
-<p class="p8"><span class="s1"></span><br></p>
-<p class="p19"><span class="s4">-</span></p>
-<p class="p23"><span class="s1"><b>Saving</b></span></p>
-<p class="p24"><span class="s4">Green means at or near a typical share of income, amber means above it, red means well above it. Giving and community spending is never flagged because that is your choice. Include your home finance repayment under Housing. Typical shares are rule-of-thumb guides, not rules.</span></p>
-<h3 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>Where your money goes</b><b></b></span></h3>
-<p class="p21"><span class="s1"></span><br></p>
-<p class="p24"><span class="s4">Hover or tap a slice for its amount and share.</span></p>
-<p class="p25"><span class="s1"></span><br></p>
-<h3 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>Where savings add the most impact</b><b></b></span></h3>
-<p class="p21"><span class="s1"></span><br></p>
-<p class="p10"><span class="s4">How much of the gap can you close?</span></p>
-<p class="p22"><span class="s4"><b>Split your free cash between four goals</b><b></b></span></p>
-<p class="p10"><span class="s4">Home finance extra</span></p>
-<p class="p10"><span class="s4">Super</span></p>
-<p class="p10"><span class="s4">Cash savings</span></p>
-<p class="p10"><span class="s4">Shares</span></p>
-<p class="p26"><span class="s8"><b>Use this in my home finance and retirement plan</b><b></b></span></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 14.4px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>2. Retirement plan</b><b></b></span></h2>
-<p class="p10"><span class="s4">Current age</span></p>
-<p class="p10"><span class="s4">Retirement age</span></p>
-<p class="p10"><span class="s4">Plan to age</span></p>
-<p class="p10"><span class="s4">Current super balance ($)</span></p>
-<p class="p10"><span class="s4">Annual salary before tax ($)</span></p>
-<p class="p10"><span class="s4">Employer contribution (%)</span></p>
-<p class="p10"><span class="s4">Your extra contribution ($)</span></p>
-<p class="p10"><span class="s4">Extra paid every</span></p>
-<p class="p16"><span class="s5">MonthFortnight</span></p>
-<p class="p10"><span class="s4">Extra contribution type</span></p>
-<p class="p16"><span class="s5">After-tax (no 15% tax)Salary sacrifice (15% tax)</span></p>
-<p class="p10"><span class="s4">Expected return while saving (% a year, after fees)</span></p>
-<p class="p10"><span class="s4">Expected return in retirement (%)</span></p>
-<p class="p10"><span class="s4">Inflation (%)</span></p>
-<p class="p10"><span class="s4">Quick-fill spending (approx. ASFA)</span></p>
-<p class="p16"><span class="s5">Choose…Single, modest ≈ $34,000/yrSingle, comfortable ≈ $53,000/yrCouple, modest ≈ $49,000/yrCouple, comfortable ≈ $75,000/yr</span></p>
-<p class="p10"><span class="s4">Spending in retirement ($)</span></p>
-<p class="p10"><span class="s4">Spending is per</span></p>
-<p class="p16"><span class="s5">YearMonth</span></p>
-<p class="p10"><span class="s4">Age Pension expected, if any ($ a year, optional)</span></p>
-<p class="p10"><span class="s4">Show payments</span></p>
-<p class="p16"><span class="s5">MonthlyFortnightly</span></p>
-<p class="p27"><span class="s9"><b>Use my budget as a guide for retirement spending</b><b></b></span></p>
-<h3 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>Where your balance should be at each age</b><b></b></span></h3>
-<p class="p21"><span class="s1"></span><br></p>
-<p class="p28"><span class="s1"></span><br></p>
-<p class="p24"><span class="s4">All dollar figures are in today’s money. “Balance needed” is what you should hold at that age to reach your retirement target if you keep up your current contributions. Defaults such as the spending figures and 12% employer rate are approximate, so check the latest ASFA Retirement Standard and ATO rates. Some super funds offer interest-free or ethically screened options, so compare funds and confirm suitability with your own adviser.</span></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 14.4px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>3. Assets &amp; liabilities</b><b></b></span></h2>
-<p class="p10"><span class="s4">Home value ($)</span></p>
-<p class="p10"><span class="s4">Other property ($)</span></p>
-<p class="p10"><span class="s4">Cash / savings today ($)</span></p>
-<p class="p10"><span class="s4">Gold / silver ($)</span></p>
-<p class="p10"><span class="s4">Shares / funds outside super ($)</span></p>
-<p class="p10"><span class="s4">Expected return on shares (% a year)</span></p>
-<p class="p10"><span class="s4">Business value ($)</span></p>
-<p class="p10"><span class="s4">Vehicles ($)</span></p>
-<p class="p10"><span class="s4">Other assets ($)</span></p>
-<p class="p10"><span class="s4">Super, combined (from Retirement plan) ($)</span></p>
-<h3 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>Liabilities</b><b></b></span></h3>
-<p class="p10"><span class="s4">Home finance owing ($, feeds Home finance payoff)</span></p>
-<p class="p10"><span class="s4">Other property finance ($)</span></p>
-<p class="p10"><span class="s4">Car finance ($)</span></p>
-<p class="p10"><span class="s4">Credit cards ($)</span></p>
-<p class="p10"><span class="s4">Personal loans ($)</span></p>
-<p class="p10"><span class="s4">Tax / other debts ($)</span></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 14.4px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>4. Home finance payoff</b><b></b></span></h2>
-<p class="p10"><span class="s4">Amount still owing ($)</span></p>
-<p class="p10"><span class="s4">Years remaining</span></p>
-<p class="p10"><span class="s4">Profit / finance rate (% a year, 0 if none)</span></p>
-<p class="p10"><span class="s4">Payment frequency</span></p>
-<p class="p16"><span class="s5">MonthlyFortnightlyWeekly</span></p>
-<p class="p10"><span class="s4">Extra payment each period ($)</span></p>
-<p class="p10"><span class="s4">Goal: pay off in (years, optional)</span></p>
-<p class="p24"><span class="s4">This is a standard repayment model. Many Islamic home finance contracts (murabaha, diminishing musharaka, ijara) fix the total profit up front, so what you save by paying early depends on the provider’s early-settlement rebate. Ask your provider before making extra payments.</span></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 14.4px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>5. Summary and financial health report</b><b></b></span></h2>
-<p class="p26"><span class="s10"><b>⬇</b></span><span class="s8"><b> Download report as PDF</b><b></b></span></p>
-<p class="p21"><span class="s1"></span><br></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 14.4px 'Helvetica Neue'; color: #132c31; -webkit-text-stroke: #132c31"><span class="s4"><b>Disclaimer and terms of use</b><b></b></span></h2>
-<p class="p29"><span class="s4"><b>This tool is for general information and educational purposes only.</b> Please read this before relying on anything on this page.</span></p>
-<ul class="ul1">
-  <li class="li30"><span class="s11"><b></b></span><span class="s4"><b>Not advice.</b> Nothing here is financial product advice, investment, superannuation, credit, tax, accounting, legal or religious advice. The tool does not consider your objectives, financial situation or needs, and no adviser-client relationship is created.</span></li>
-  <li class="li30"><span class="s11"><b></b></span><span class="s4"><b>Get your own advice.</b> Before making any decision, speak with a licensed financial adviser, a registered tax agent or accountant, a lawyer and, where relevant, a qualified religious or ethical adviser. Check current rules with the ATO, ASIC and your super fund or lender.</span></li>
-  <li class="li30"><span class="s11"><b></b></span><span class="s4"><b>Estimates only.</b> Results depend on the figures you enter and on simplified models: constant returns and inflation, approximate tax rates, simplified super rules and results shown in today’s dollars. Actual outcomes will differ. Laws, rates and thresholds change and may be out of date. Returns are not guaranteed, and past performance is not a reliable indicator of future performance.</span></li>
-  <li class="li30"><span class="s11"><b></b></span><span class="s4"><b>No guarantee.</b> We do not guarantee the accuracy, completeness, reliability or suitability of the tool or its reports. Errors may exist.</span></li>
-  <li class="li30"><span class="s11"><b></b></span><span class="s4"><b>No liability.</b> To the maximum extent permitted by law, </span><span class="s12">kitosalim</span><span class="s4"> and its owners, officers, contractors and affiliates exclude all liability for any loss or damage (direct, indirect, consequential or loss of profit or opportunity) arising from use of, or reliance on, the tool or its outputs, including downloaded reports. You use the tool at your own risk. Nothing in this disclaimer excludes, restricts or modifies any right or remedy you have under the Australian Consumer Law or any other law that cannot be excluded.</span></li>
-  <li class="li30"><span class="s11"><b></b></span><span class="s4"><b>Examples are not recommendations.</b> Any mention of products, funds, asset types or providers is an example only and not a recommendation or endorsement. Whether a product is interest-free or meets your own ethical or religious standards must be confirmed independently.</span></li>
-  <li class="li30"><span class="s11"><b></b></span><span class="s4"><b>Advertising and links.</b> Advertisements are supplied by third parties. Their appearance is not an endorsement and we are not responsible for their content, products or services. Advertising providers may use cookies. See our </span><span class="s12">[Privacy policy link]</span><span class="s4">.</span></li>
-  <li class="li30"><span class="s11"><b></b></span><span class="s4"><b>Your data.</b> The tool runs in your browser and the figures you enter are not sent to us. They stay on your device unless you save or download them. A saved profile or PDF contains the details you entered, so keep it safe.</span></li>
+<div class='page'><aside class='ad ad-left' aria-label='Advertisement'><div class='adbox'><span class='adlbl'>Advertisement</span><div class='adslot' id='ad-left'><!-- Replace this placeholder with your Google AdSense 300x600 ad unit code --><span>300 × 600<br>Ad space</span></div></div></aside><div class="wrap">
+<header class='hero'><svg class='hsvg' viewBox='0 0 300 160' preserveAspectRatio='xMaxYMax slice' aria-hidden='true'><circle cx='235' cy='118' r='52' fill='#ffd766' opacity='.14'/><circle cx='235' cy='118' r='36' fill='#ffd766' opacity='.28'/><circle cx='235' cy='118' r='22' fill='#ffd766'/><path d='M0 118H300V160H0Z' fill='#0b3f5c' opacity='.9'/><rect x='0' y='117' width='300' height='1.5' fill='#fff' opacity='.55'/><rect x='185' y='127' width='100' height='2.5' rx='1.2' fill='#ffd766' opacity='.55'/><rect x='200' y='135' width='70' height='2.5' rx='1.2' fill='#fff' opacity='.3'/><rect x='214' y='143' width='44' height='2.5' rx='1.2' fill='#fff' opacity='.2'/></svg><div class='brand'><svg class='logo' viewBox='0 0 64 64' role='img' aria-label='Household Horizon logo'><defs><linearGradient id='lg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#14b8a6'/><stop offset='1' stop-color='#2563eb'/></linearGradient></defs><rect x='1.5' y='1.5' width='61' height='61' rx='18' fill='url(#lg)' stroke='#fff' stroke-opacity='.55' stroke-width='1.5'/><g fill='#fff'><rect x='12' y='11' width='5' height='24' rx='2.5'/><rect x='23' y='11' width='5' height='24' rx='2.5'/><rect x='17' y='21' width='6' height='5'/><rect x='36' y='11' width='5' height='24' rx='2.5'/><rect x='47' y='11' width='5' height='24' rx='2.5'/><rect x='41' y='21' width='6' height='5'/></g><path d='M23 46a9 9 0 0 1 18 0z' fill='#fbbf24'/><rect x='11' y='46' width='42' height='2.6' rx='1.3' fill='#fff'/><rect x='18' y='52' width='28' height='2' rx='1' fill='#fff' opacity='.55'/></svg><div><h1>Household Horizon</h1><div class='tag'>Interest-Free Family Finance Planner</div></div></div><p>Budget, super, assets and home finance in one place. No interest-bearing assumptions: you choose the expected returns for options such as screened funds, gold, property or business.</p></header><nav class='nav'><a href='#snap'>Snapshot</a><a href='#m0'>Budget</a><a href='#m1'>Retirement</a><a href='#m2'>Assets</a><a href='#m3'>Home finance</a><a href='#m5'>Report</a><a href='#disc'>Disclaimer</a></nav><div class='notice' role='note'><b>Information only.</b> This tool gives general information and estimates. It is not financial, investment, tax, legal or religious advice. Please get your own advice from licensed professionals before acting. <a href='#disc'>Read the full disclaimer</a>.</div>
+
+<div class="card"><h2>Choose what you need</h2>
+<div class="toggles">
+<label><input type='checkbox' id='tg0' checked style='width:auto'> Household budget</label><label><input type='checkbox' id='tg1' checked style='width:auto'> Retirement plan</label>
+<label><input type="checkbox" id="tg2" checked style="width:auto"> Assets &amp; liabilities</label>
+<label><input type='checkbox' id='tg3' checked style='width:auto'> Home finance payoff</label><label><input type='checkbox' id='tg4' style='width:auto'> Include a partner</label>
+</div></div>
+
+<div class='card' id='snap'><h2>Household snapshot</h2><div class='stats' id='snapStats'></div><div class='prof'><div class='f'><label>Profile name</label><input class='np' id='pname' type='text' value='My plan'></div><div class='f'><label>Saved in this browser</label><select class='np' id='plist'></select></div><div class='pb'><button class='btn' id='save' type='button'>💾 Save</button><button class='btn s' id='load' type='button'>Load</button><button class='btn s' id='del' type='button'>Delete</button><button class='btn s' id='dl' type='button'>⬇ Save to device</button><button class='btn s' id='open' type='button'>📂 Open file</button><button class='btn s' id='reset' type='button'>Reset</button></div><input class='np' id='pfile' type='file' accept='.json,application/json' style='display:none'><span class='note' id='profMsg' style='grid-column:1/-1;margin:0'></span></div></div><section id='m0' class='card'><h2>1. Household budget</h2><p class='sub'>Take-home pay and spending in one place. Whatever is left over can fund extra home finance payments and retirement saving.</p><div class='grid'><div class='f'><label>Pay entry</label><select id='imode'><option value='sal'>Annual salary before tax (auto take-home)</option><option value='net'>I know my take-home pay</option></select></div><div class='f sm'><label>Your annual salary before tax ($)</label><input id='bsal1' type='number' value='65000'></div><div class='f pi sm'><label>Partner annual salary before tax ($)</label><input id='bsal2' type='number' value='50000'></div><div class='f'><label>Your take-home pay per period ($)</label><input class='bi' id='inc1' type='number' value='4500'></div><div class='f pi hide'><label>Partner take-home pay ($)</label><input class='bi' id='inc2' type='number' value='3500'></div><div class='f'><label>Other income: rent, benefits, side work ($)</label><input class='bi' id='inc3' type='number' value='0'></div><div class='f'><label>I enter amounts per</label><select id='bf'><option value='12'>Month</option><option value='26'>Fortnight</option></select></div></div><h3>Expenses</h3><div class='row hd' style='font-size:.78rem;color:var(--mute)'><span>Expense</span><span id='hdr'>Per month</span><span class='pct'>Share / typical</span><span style='text-align:center'>Status</span></div><div id='exp'></div><div class='row'><span class='nm'><i style='background:#2f9e6e'></i>Regular savings (goes to cash assets)</span><input class='bi' id='sav' type='number' min='0' value='150'><span class='pct' id='savp'>-</span><span class='tag nu'>Saving</span></div><p class='note'>Green means at or near a typical share of income, amber means above it, red means well above it. Giving and community spending is never flagged because that is your choice. Include your home finance repayment under Housing. Typical shares are rule-of-thumb guides, not rules.</p><div class='stats' id='r0stats'></div><div class='two' style='margin-top:16px'><div><h3>Where your money goes</h3><div id='dw' style='position:relative'><div id='donut'></div><div id='tip'></div></div><p class='note'>Hover or tap a slice for its amount and share.</p><p class='note' id='slices'></p></div><div><h3>Where savings add the most impact</h3><div id='opps'></div><div class='f' style='margin-top:12px'><label>How much of the gap can you close? <b id='cutv'></b></label><input id='cut' type='range' min='0' max='100' value='50'></div><div style='margin-top:12px'><b style='font-size:.9rem'>Split your free cash between four goals</b><div class='f'><label>Home finance extra <b id='av1'></b></label><input class='sp' id='a1' type='range' min='0' max='100' value='40'></div><div class='f'><label>Super <b id='av2'></b></label><input class='sp' id='a2' type='range' min='0' max='100' value='30'></div><div class='f'><label>Cash savings <b id='av3'></b></label><input class='sp' id='a3' type='range' min='0' max='100' value='15'></div><div class='f'><label>Shares <b id='av4'></b></label><input class='sp' id='a4' type='range' min='0' max='100' value='15'></div></div><p><button class='btn' id='apply' type='button'>Use this in my home finance and retirement plan</button> <span class='note' id='applyMsg'></span></p></div></div></section><section id='m1' class='card'>
+<h2>2. Retirement plan</h2>
+<div class="grid">
+<div class="f"><label>Current age</label><input id="age" type="number" value="35"></div>
+<div class="f"><label>Retirement age</label><input id="retAge" type="number" value="67"></div>
+<div class="f"><label>Plan to age</label><input id="life" type="number" value="90"></div>
+<div class="f"><label>Current super balance ($)</label><input id="bal" type="number" value="30000"></div>
+<div class="f"><label>Annual salary before tax ($)</label><input id="sal" type="number" value="65000"></div>
+<div class="f"><label>Employer contribution (%)</label><input id="sg" type="number" step="0.5" value="12"></div>
+<div class="f"><label>Your extra contribution ($)</label><input id="extra" type="number" value="0"></div>
+<div class="f"><label>Extra paid every</label><select id="extraFreq"><option value="12">Month</option><option value="26">Fortnight</option></select></div>
+<div class="f"><label>Extra contribution type</label><select id="extraType"><option value="at">After-tax (no 15% tax)</option><option value="sac">Salary sacrifice (15% tax)</option></select></div>
+<div class="f"><label>Expected return while saving (% a year, after fees)</label><input id="g" type="number" step="0.1" value="5.5"></div>
+<div class="f"><label>Expected return in retirement (%)</label><input id="gr" type="number" step="0.1" value="4"></div>
+<div class="f"><label>Inflation (%)</label><input id="inf" type="number" step="0.1" value="2.5"></div>
+<div class="f"><label>Quick-fill spending (approx. ASFA)</label>
+<select id="preset"><option value="">Choose…</option><option value="34000">Single, modest ≈ $34,000/yr</option><option value="53000">Single, comfortable ≈ $53,000/yr</option><option value="49000">Couple, modest ≈ $49,000/yr</option><option value="75000">Couple, comfortable ≈ $75,000/yr</option></select></div>
+<div class="f"><label>Spending in retirement ($)</label><input id="spend" type="number" value="53000"></div>
+<div class="f"><label>Spending is per</label><select id="unit"><option value="1">Year</option><option value="12">Month</option></select></div>
+<div class="f"><label>Age Pension expected, if any ($ a year, optional)</label><input id="pension" type="number" value="0"></div>
+<div class="f"><label>Show payments</label><select id="showFreq"><option value="12">Monthly</option><option value="26">Fortnightly</option></select></div>
+</div>
+<p><button class='btn s' id='useBud' type='button'>Use my budget as a guide for retirement spending</button> <span class='note' id='useBudMsg'></span></p><div id='pf' class='hide'><h3>Partner</h3><div class='grid'><div class='f'><label>Partner’s current age</label><input id='page' type='number' value='33'></div><div class='f'><label>Partner’s retirement age</label><input id='pret' type='number' value='65'></div></div><p class='note' style='margin:6px 0 10px'>Spending is drawn from super once you are both retired. Until then, your remaining income is assumed to cover living costs.</p><div class='grid'><div class='f'><label>Partner annual salary before tax ($)</label><input id='psal' type='number' value='50000'></div><div class='f'><label>Partner super balance ($)</label><input id='pbal' type='number' value='20000'></div><div class='f'><label>Partner employer contribution (%)</label><input id='psg' type='number' step='0.5' value='12'></div><div class='f'><label>Partner extra contribution ($, same frequency)</label><input id='pextra' type='number' value='0'></div></div></div><div class='stats' id='r1stats'></div>
+<h3>Where your balance should be at each age</h3>
+<div id="chart"></div>
+<div class="scroll"><table id="tbl"></table></div>
+<p class="note">All dollar figures are in today’s money. “Balance needed” is what you should hold at that age to reach your retirement target if you keep up your current contributions. Defaults such as the spending figures and 12% employer rate are approximate, so check the latest ASFA Retirement Standard and ATO rates. Some super funds offer interest-free or ethically screened options, so compare funds and confirm suitability with your own adviser.</p>
+</section>
+
+<section id="m2" class="card">
+<h2>3. Assets &amp; liabilities</h2><input type='hidden' id='planC' value='0'><input type='hidden' id='planS' value='0'>
+<div class="grid">
+<div class='f'><label>Home value ($)</label><input class='a' type='number' value='650000'></div>
+<div class="f"><label>Other property ($)</label><input class="a" type="number" value="0"></div>
+<div class='f'><label>Cash / savings today ($)</label><input class='a' id='cashA' type='number' value='15000'></div>
+<div class="f"><label>Gold / silver ($)</label><input class="a" type="number" value="0"></div>
+<div class='f'><label>Shares / funds outside super ($)</label><input class='a' id='shareA' type='number' value='0'></div><div class='f'><label>Expected return on shares (% a year)</label><input id='shr' type='number' step='0.1' value='6'></div>
+<div class="f"><label>Business value ($)</label><input class="a" type="number" value="0"></div>
+<div class="f"><label>Vehicles ($)</label><input class="a" type="number" value="0"></div>
+<div class="f"><label>Other assets ($)</label><input class="a" type="number" value="0"></div>
+<div class="f"><label>Super, combined (from Retirement plan) ($)</label><input id="superA" type="number" readonly></div>
+</div>
+<h3>Liabilities</h3>
+<div class="grid">
+<div class='f'><label>Home finance owing ($, feeds Home finance payoff)</label><input class='b' id='bHome' type='number' value='400000'></div>
+<div class="f"><label>Other property finance ($)</label><input class="b" type="number" value="0"></div>
+<div class="f"><label>Car finance ($)</label><input class="b" type="number" value="0"></div>
+<div class="f"><label>Credit cards ($)</label><input class="b" type="number" value="0"></div>
+<div class="f"><label>Personal loans ($)</label><input class="b" type="number" value="0"></div>
+<div class="f"><label>Tax / other debts ($)</label><input class="b" type="number" value="0"></div>
+</div>
+<div class="stats" id="r2stats"></div>
+</section>
+
+<section id="m3" class="card">
+<h2>4. Home finance payoff</h2>
+<div class="grid">
+<div class="f"><label>Amount still owing ($)</label><input id="mBal" type="number" value="400000"></div>
+<div class="f"><label>Years remaining</label><input id="mYears" type="number" value="25"></div>
+<div class="f"><label>Profit / finance rate (% a year, 0 if none)</label><input id="mRate" type="number" step="0.05" value="6"></div>
+<div class="f"><label>Payment frequency</label><select id="mFreq"><option value="12">Monthly</option><option value="26">Fortnightly</option><option value="52">Weekly</option></select></div>
+<div class="f"><label>Extra payment each period ($)</label><input id="mExtra" type="number" value="200"></div>
+<div class="f"><label>Goal: pay off in (years, optional)</label><input id="mTarget" type="number" value="15"></div>
+</div>
+<div class="stats" id="r3stats"></div>
+<p class="note">This is a standard repayment model. Many Islamic home finance contracts (murabaha, diminishing musharaka, ijara) fix the total profit up front, so what you save by paying early depends on the provider’s early-settlement rebate. Ask your provider before making extra payments.</p>
+</section>
+
+<section id='m5' class='card'><h2>5. Summary and financial health report</h2><p><button class='btn' id='pdf' type='button'>⬇ Download report as PDF</button> <span class='note' id='pdfMsg'></span></p><div id='rep'></div></section><section id='disc' class='card'><h2>Disclaimer and terms of use</h2><div class='disc'>
+<p><b>This tool is for general information and educational purposes only.</b> Please read this before relying on anything on this page.</p>
+<ul>
+<li><b>Not advice.</b> Nothing here is financial product advice, investment, superannuation, credit, tax, accounting, legal or religious advice. The tool does not consider your objectives, financial situation or needs, and no adviser-client relationship is created.</li>
+<li><b>Get your own advice.</b> Before making any decision, speak with a licensed financial adviser, a registered tax agent or accountant, a lawyer and, where relevant, a qualified religious or ethical adviser. Check current rules with the ATO, ASIC and your super fund or lender.</li>
+<li><b>Estimates only.</b> Results depend on the figures you enter and on simplified models: constant returns and inflation, approximate tax rates, simplified super rules and results shown in today’s dollars. Actual outcomes will differ. Laws, rates and thresholds change and may be out of date. Returns are not guaranteed, and past performance is not a reliable indicator of future performance.</li>
+<li><b>No guarantee.</b> We do not guarantee the accuracy, completeness, reliability or suitability of the tool or its reports. Errors may exist.</li>
+<li><b>No liability.</b> To the maximum extent permitted by law, kitosalim and its owners, officers, contractors and affiliates exclude all liability for any loss or damage (direct, indirect, consequential or loss of profit or opportunity) arising from use of, or reliance on, the tool or its outputs, including downloaded reports. You use the tool at your own risk. Nothing in this disclaimer excludes, restricts or modifies any right or remedy you have under the Australian Consumer Law or any other law that cannot be excluded.</li>
+<li><b>Examples are not recommendations.</b> Any mention of products, funds, asset types or providers is an example only and not a recommendation or endorsement. Whether a product is interest-free or meets your own ethical or religious standards must be confirmed independently.</li>
+<li><b>Advertising and links.</b> Advertisements are supplied by third parties. Their appearance is not an endorsement and we are not responsible for their content, products or services. Advertising providers may use cookies. See our <a href='privacy.html'>privacy policy</a>.</li>
+<li><b>Your data.</b> The tool runs in your browser and the figures you enter are not sent to us. They stay on your device unless you save or download them. A saved profile or PDF contains the details you entered, so keep it safe.</li>
 </ul>
-<p class="p31"><span class="s13">Operated by </span><span class="s14">kitosalim</span><span class="s13"> · </span><span class="s14">kitosalim@outlook.com</span><span class="s13"> · Last updated </span><span class="s14">17 October 2026</span></p>
-<p class="p32"><span class="s1">Take-home pay uses approximate Australian resident tax rates plus the 2% Medicare levy and ignores offsets, HELP debt and salary sacrifice. General information only: see the </span><span class="s15">full disclaimer</span><span class="s1">.</span></p>
-<p class="p13"><span class="s16"><b>↶</b></span><span class="s1"><b> Undo</b></span></p>
-<p class="p13"><span class="s16"><b>↷</b></span><span class="s1"><b> Redo</b></span></p>
-<p class="p12"><span class="s6">💾</span><span class="s1"><b> Save</b></span></p>
-<p class="p33"><span class="s1"></span><br></p>
+<p class='note'>Operated by kitosalim · <a href='mailto:kitosalim@outlook.com'>kitosalim@outlook.com</a> · Last updated 17 October 2026</p></div></section><p class='note'>Take-home pay uses approximate Australian resident tax rates plus the 2% Medicare levy and ignores offsets, HELP debt and salary sacrifice. General information only: see the <a href='#disc'>full disclaimer</a> and the <a href='privacy.html'>privacy policy</a>.</p>
+</div><aside class='ad ad-right' aria-label='Advertisement'><div class='adbox'><span class='adlbl'>Advertisement</span><div class='adslot' id='ad-right'><!-- Replace this placeholder with your Google AdSense 300x600 ad unit code --><span>300 × 600<br>Ad space</span></div></div></aside></div>
+<div class='fab'><button class='btn s' id='undo' type='button' title='Undo last change'>↶ Undo</button><button class='btn s' id='redo' type='button' title='Redo'>↷ Redo</button><button class='btn' id='fsave' type='button' title='Save profile'>💾 Save</button></div><div id='toast' class='toast'></div><script src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js'></script><script>
+const $=id=>document.getElementById(id);
+const n=id=>parseFloat($(id).value)||0;
+const $f=v=>(v<0?'-$':'$')+Math.round(Math.abs(v)).toLocaleString('en-AU');
+const stat=(b,s,bad)=>'<div class="stat'+(bad?' bad':'')+'"><b>'+b+'</b><span>'+s+'</span></div>';
+const FV=(B,C,r,y)=>r===0?B+C*y:B*Math.pow(1+r,y)+C*(Math.pow(1+r,y)-1)/r;
+const AF=(r,y)=>r===0?y:(Math.pow(1+r,y)-1)/r;
+
+function assets(){
+  const sum=c=>[...document.querySelectorAll(c)].reduce((t,e)=>t+(parseFloat(e.value)||0),0);
+  const A=sum('.a')+n('bal')+($('tg4').checked?n('pbal'):0),B=sum('.b'),NW=A-B;window.NW=NW;window.CASH=n('cashA');window.AB=[A,B];const sM=n('sav')*(+$('bf').value)/12,c12=n('cashA')+(sM+n('planC'))*12,s12=n('shareA')*(1+n('shr')/100)+n('planS')*12*(1+n('shr')/200),sR=FV(n('shareA'),n('planS')*12,(1+n('shr')/100)/(1+n('inf')/100)-1,window.T0||0);
+  $('r2stats').innerHTML=stat($f(A),'Total assets (incl. super)')+stat($f(B),'Total liabilities',B>A*0.6&&A>0)+stat($f(NW),'Net worth',NW<0)+stat($f(c12),'Cash in 12 months, with planned savings')+stat($f(s12),'Shares in 12 months, with growth and planned investing')+stat($f(sR),'Shares by retirement, today’s $ (with growth and planned investing)')+
+    stat(A>0?Math.round(B/A*100)+'%':'–','Liabilities as share of assets');
+}
+
+function mort(){
+  const bal=n('mBal'),yrs=n('mYears'),rate=n('mRate')/100,pn=+$('mFreq').value,ex=n('mExtra'),tg=n('mTarget');
+  const N=Math.round(yrs*pn),r=rate/pn;
+  const pmt=(B,r,N)=>r===0?B/N:B*r/(1-Math.pow(1+r,-N));
+  if(!bal||!N){$('r3stats').innerHTML='';return;}
+  const P=pmt(bal,r,N);
+  const sim=p=>{let b=bal,k=0,paid=0;while(b>0.005&&k<6000){const i=b*r;let pay=Math.min(p,b+i);b=b+i-pay;paid+=pay;k++;}return{k,paid};};
+  const base=sim(P),fast=sim(P+ex);
+  const per=pn===12?'month':pn===26?'fortnight':'week';
+  const fmtT=k=>Math.floor(k/pn)+' yrs '+Math.round(k%pn/pn*12)+' mths';
+  let h=stat($f(P),'Regular payment each '+per)+stat($f(base.paid),'Total repaid with no extra');
+  h+=stat(fmtT(fast.k),'Payoff time with +'+$f(ex)+' per '+per);
+  h+=stat(fmtT(base.k-fast.k),'Time saved');
+  h+=stat($f(base.paid-fast.paid),'Estimated total saved');
+  if(tg>0){const TN=Math.round(tg*pn),need=pmt(bal,r,TN);
+    h+=stat($f(need),'Payment each '+per+' to finish in '+tg+' yrs')+stat($f(Math.max(0,need-P)),'Extra needed each '+per+' vs current plan');}
+  window.MT=fmtT(fast.k);window.MS=base.paid-fast.paid;window.MTS=fmtT(base.k-fast.k);if(window.FREE!=null){const fc=window.FREE*12/pn;h+=stat($f(fc),`Budget free cash per ${per} (available for extra payments)`,fc<ex);}$('r3stats').innerHTML=h;
+}
+
+const CATS=[['Housing (rent, home finance, rates)',30],['Groceries and food',12],['Utilities, internet, phone',5],['Transport and car',10],['Insurance',5],['Health and medical',4],['Education and childcare',7],['Giving and community',5,1],['Dining out and entertainment',5],['Clothing and personal',3],['Travel and holidays',4],['Other debt repayments',5],['Miscellaneous',3]],COL=['#0f6b57','#e0a526','#3b82c4','#c2573b','#7c5cbf','#d4538c','#4aa3a2','#8a9a2a','#e07a2d','#5b6bc0','#a86a3d','#6c7a89','#b0b94f'],DEF=[1450,700,300,400,220,100,200,150,150,100,100,200,80];let PB=12;
+$('exp').innerHTML=CATS.map((c,i)=>`<div class='row'><span class='nm'><i style='background:${COL[i]}'></i>${c[0]}</span><input class='bi' type='number' min='0' value='${DEF[i]}'><span class='pct'>-</span><span class='tag nu'>-</span></div>`).join('');
+$('bf').addEventListener('change',()=>{const f=+$('bf').value;document.querySelectorAll('.bi').forEach(e=>{e.value=Math.round((parseFloat(e.value)||0)*PB/f)});PB=f;});
+function budget(){const f=+$('bf').value,per=f===12?'month':'fortnight',P2=$('tg4').checked,SM=$('imode').value==='sal';if(SM){$('inc1').value=Math.round(net(n('bsal1'))/f);$('inc2').value=Math.round(net(n('bsal2'))/f);$('sal').value=$('bsal1').value;$('psal').value=$('bsal2').value}$('inc1').readOnly=SM;$('inc2').readOnly=SM;const inc=n('inc1')+(P2?n('inc2'):0)+n('inc3'),rows=[...document.querySelectorAll('#exp .row')],vals=rows.map(r=>parseFloat(r.querySelector('input').value)||0),tot=vals.reduce((a,b)=>a+b,0),sv=n('sav'),sur=inc-tot-sv,gaps=[];rows.forEach((r,i)=>{const nm=CATS[i][1],p=inc>0?vals[i]/inc*100:0;let c='nu',l='-';if(!CATS[i][2]&&inc>0&&vals[i]>0){const x=p/nm;if(x<=1.1){c='g';l='OK'}else if(x<=1.5){c='am';l='High'}else{c='rd';l='Very high'}}else if(CATS[i][2]){l='Your call'}r.querySelector('.pct').textContent=inc>0?`${p.toFixed(1)}% / ${nm}%`:'-';const t=r.querySelector('.tag');t.className='tag '+c;t.textContent=l;gaps.push(!CATS[i][2]&&inc>0?Math.max(0,vals[i]-nm/100*inc):0)});$('hdr').textContent='Per '+per;$('savp').textContent=inc>0?`${(sv/inc*100).toFixed(1)}%`:'-';const rate=inc>0?(sur+sv)/inc:0,hl=!inc?['-',1]:sur<0?['Overspending',1]:rate<0.1?['Tight',1]:['Healthy',0],gs=gaps.reduce((a,b)=>a+b,0),freed=gs*n('cut')/100,fp=sur+freed;window.FREE=inc>0?fp*f/12:null;$('cutv').textContent=Math.round(n('cut'))+'%';{const w=[1,2,3,4].map(i=>n('a'+i)),sw=w.reduce((a,b)=>a+b,0)||1,fm=Math.max(0,window.FREE||0);window.SPL=w.map(x=>fm*x/sw);w.forEach((x,i)=>{$('av'+(i+1)).textContent=`${Math.round(x/sw*100)}% · ${$f(window.SPL[i])}/mth`})}$('r0stats').innerHTML=stat($f(inc),'Income per '+per)+stat($f(tot),'Expenses per '+per)+stat($f(sv),'Savings per '+per+' (to cash)')+stat($f(sur),'Surplus or deficit per '+per+(inc>0?` (${Math.round(sur/inc*100)}% of income)`:''),sur<0)+stat(hl[0],'Budget health (healthy = saving 10%+ of income)',hl[1])+stat($f(fp*f/12),'Free cash per month after your trim',fp<0);const Cc=2*Math.PI*70;let off=0,s=`<svg viewBox='0 0 200 200' role='img' aria-label='Spending split'><g transform='rotate(-90 100 100)'>`;if(tot>0)vals.forEach((v,i)=>{if(v>0){const l=v/tot*Cc;s+=`<circle cx='100' cy='100' r='70' fill='none' stroke='${COL[i]}' stroke-width='34' stroke-dasharray='${l} ${Cc-l}' stroke-dashoffset='${-off}'/>`;off+=l}});s+=`</g><text x='100' y='97' text-anchor='middle' class='t'>Spending</text><text x='100' y='117' text-anchor='middle' style='font-size:15px;font-weight:700;fill:var(--ink)'>${$f(tot)}</text></svg>`;$('donut').innerHTML=s;const top=vals.map((v,i)=>i).filter(i=>vals[i]>0).sort((a,b)=>vals[b]-vals[a]).slice(0,3);$('slices').textContent=tot>0?'Biggest slices: '+top.map(i=>CATS[i][0].split(' (')[0]+' '+Math.round(vals[i]/tot*100)+'%').join(', ')+'.':'';const idx=gaps.map((g,i)=>i).filter(i=>gaps[i]>1).sort((a,b)=>gaps[b]-gaps[a]).slice(0,5),mg=gaps[idx[0]]||1;window.RP={inc,tot,sur,sv,rate,f,v:vals,top:idx.length?{n:CATS[idx[0]][0].split(' (')[0],g:gaps[idx[0]]}:null};$('opps').innerHTML=idx.length?idx.map(i=>`<div class='bar'><span>${CATS[i][0].split(' (')[0]}</span><div style='background:var(--line);border-radius:5px'><div class='b' style='width:${gaps[i]/mg*100}%'></div></div><span>${$f(gaps[i])}</span></div>`).join('')+`<p class='note'>Bars show how far each category is above its typical level, per ${per}. Closing ${Math.round(n('cut'))}% of all gaps frees about ${$f(freed)} per ${per} (${$f(freed*f)} a year).</p>`:`<p class='note'>${inc>0?'No category is above its typical level. Look at your largest slices for further savings.':'Enter your income to compare against typical levels.'}</p>`;}
+$('apply').onclick=()=>{const fr=window.FREE;if(!(fr>0)){$('applyMsg').textContent='No free cash yet. Trim spending first.';return}const [h,s,c,sh]=window.SPL;$('mExtra').value=Math.round(h*12/+$('mFreq').value);$('extra').value=Math.round(s*12/+$('extraFreq').value);$('planC').value=Math.round(c);$('planS').value=Math.round(sh);$('applyMsg').textContent=`Done: ${$f(h)}/mth to home finance, ${$f(s)}/mth to super, ${$f(c)}/mth to cash and ${$f(sh)}/mth to shares.`;all();hist();};
+$('useBud').onclick=()=>{const v=[...document.querySelectorAll('#exp input')].map(e=>parseFloat(e.value)||0),yr=(v.reduce((a,b)=>a+b,0)-v[6]-v[11])*(+$('bf').value);$('spend').value=Math.round(yr);$('unit').value='1';$('useBudMsg').textContent=`Set to ${$f(yr)} a year (budget excluding education and debt repayments). Lower it if your home finance will be paid off.`;all();};
+function snap(){const fr=window.FREE;$('snapStats').innerHTML=stat(fr!=null?$f(fr)+'/mth':'-','Free cash after budget and trim',fr<0)+stat(window.RGAP>0?'+'+$f(window.RADD)+'/mth':'On track','Retirement: extra saving needed',window.RGAP>0)+stat(window.MT||'-','Home finance payoff with your extra')+stat($f(window.NW||0),'Net worth',window.NW<0);}
+function vis(){['0','1','2','3'].forEach(i=>$('m'+i).classList.toggle('hide',!$('tg'+i).checked));const P2=$('tg4').checked;$('pf').classList.toggle('hide',!P2);document.querySelectorAll('.pi').forEach(e=>e.classList.toggle('hide',!P2));document.querySelectorAll('.sm').forEach(e=>e.classList.toggle('hm',$('imode').value!=='sal'));}
+function net(s){const b=[[18200,0],[45000,.15],[135000,.3],[190000,.37],[1e12,.45]];let t=0,p=0;for(const [u,r] of b){if(s>p)t+=(Math.min(s,u)-p)*r;p=u}return s-t-s*0.02}
+function donut(){const SH=['Housing','Food','Utilities','Transport','Insurance','Health','Education','Giving','Dining and fun','Clothing','Travel','Debt repayments','Misc','Savings'],cl=COL.concat('#2f9e6e'),vals=[...document.querySelectorAll('#exp input')].map(e=>parseFloat(e.value)||0).concat(n('sav')),tot=vals.reduce((a,b)=>a+b,0),el=$('donut');if(tot<=0){el.innerHTML=`<p class='note'>Enter your expenses to see the chart.</p>`;return}const cx=280,cy=130,R=70,W=34,Cc=2*Math.PI*R,per=+$('bf').value===12?'month':'fortnight',inc=(window.RP||{}).inc||0;let off=0,ang=0,arcs='',L=[],lab='';vals.forEach((v,i)=>{if(v<=0)return;const fr=v/tot,l=fr*Cc,th=-Math.PI/2+(ang+fr/2)*2*Math.PI;arcs+=`<circle class='sl' data-t='${SH[i]}: ${$f(v)} per ${per} · ${(fr*100).toFixed(1)}% of outgoings${inc>0?' · '+(v/inc*100).toFixed(1)+'% of income':''}' cx='${cx}' cy='${cy}' r='${R}' fill='none' stroke='${cl[i]}' stroke-width='${W}' stroke-dasharray='${l} ${Cc-l}' stroke-dashoffset='${-off}' transform='rotate(-90 ${cx} ${cy})'/>`;if(fr>=.03)L.push({i,th,fr,y:cy+(R+W/2+14)*Math.sin(th)});off+=l;ang+=fr});[1,-1].forEach(sd=>{const g=L.filter(o=>(Math.cos(o.th)>=0?1:-1)===sd).sort((a,b)=>a.y-b.y);let py=-99;g.forEach(o=>{o.y=Math.max(o.y,py+19,12);py=o.y});if(g.length&&py>252){const sh=py-252;g.forEach(o=>o.y-=sh)}g.forEach(o=>{const c=Math.cos(o.th),s=Math.sin(o.th),x0=cx+(R+W/2)*c,y0=cy+(R+W/2)*s,x1=cx+(R+W/2+14)*c,y1=cy+(R+W/2+14)*s,x2=cx+sd*(R+W/2+34);lab+=`<polyline class='ld' points='${x0},${y0} ${x1},${y1} ${x2},${o.y}'/><text class='lb' x='${x2+sd*4}' y='${o.y+4}' text-anchor='${sd>0?'start':'end'}'>${SH[o.i]} ${Math.round(o.fr*100)}%</text>`})});el.innerHTML=`<svg viewBox='0 0 560 260' role='img' aria-label='Spending split by category'>${arcs}${lab}<text x='${cx}' y='${cy-3}' text-anchor='middle' class='t'>Total outgoings</text><text x='${cx}' y='${cy+16}' text-anchor='middle' style='font-size:15px;font-weight:700;fill:var(--ink)'>${$f(tot)}</text></svg>`}
+{const dw=$('dw'),tip=$('tip'),mv=e=>{const s=e.target.closest&&e.target.closest('.sl');if(!s){tip.style.display='none';return}const r=dw.getBoundingClientRect();tip.textContent=s.dataset.t;tip.style.display='block';tip.style.left=Math.min(Math.max(0,e.clientX-r.left+12),Math.max(0,r.width-tip.offsetWidth))+'px';tip.style.top=(e.clientY-r.top+12)+'px'};dw.addEventListener('mousemove',mv);dw.addEventListener('click',mv);dw.addEventListener('mouseleave',()=>{tip.style.display='none'})}
+const els=()=>[...document.querySelectorAll('input:not(.np),select:not(.np)')];
+function getS(){const o={};els().forEach((e,i)=>{o[e.id||'i'+i]=e.type==='checkbox'?e.checked:e.value});return o}
+function setS(o){if(!o||Array.isArray(o))return false;els().forEach((e,i)=>{const k=e.id||'i'+i;if(!(k in o))return;if(e.type==='checkbox')e.checked=o[k];else e.value=o[k]});PB=+$('bf').value;all();return true}
+let HS=[],hi=-1,ht;function hb(){$('undo').disabled=hi<=0;$('redo').disabled=hi>=HS.length-1}
+function hist(){clearTimeout(ht);const s=JSON.stringify(getS());if(HS[hi]===s)return;HS=HS.slice(0,hi+1);HS.push(s);if(HS.length>100)HS.shift();hi=HS.length-1;hb()}
+$('undo').onclick=()=>{if(hi>0){hi--;setS(JSON.parse(HS[hi]));hb()}};$('redo').onclick=()=>{if(hi<HS.length-1){hi++;setS(JSON.parse(HS[hi]));hb()}};
+function report(){const h=window.RP,el=$('rep');if(!h||!(h.inc>0)){el.innerHTML=`<p class='note'>Enter your income to see the report.</p>`;return}const M=x=>x*h.f/12,C=[],add=(s,t,d)=>C.push({s,t,d}),fr=window.FREE||0,em=(window.CASH||0)/Math.max(1,M(h.tot)),hs=h.v[0]/h.inc,ab=window.AB||[0,0],mb=n('mBal')>0,acts=[];add(h.sur<0?0:h.rate>=.15?2:h.rate>=.05?1:0,`Saving ${Math.round(h.rate*100)}% of income`,h.sur<0?`Spending is ${$f(M(-h.sur))}/mth more than income. Fix this first.`:'Regular savings plus leftover cash. Aim for 15% or more.');add(hs<=.33?2:hs<=.45?1:0,`Housing takes ${Math.round(hs*100)}% of income`,'A typical guide is around 30%.');h.top?add(1,`Biggest saving opportunity: ${h.top.n}`,`About ${$f(M(h.top.g))}/mth above its typical share.`):add(2,'Spending is in line with typical shares','No category is above its typical level.');add(em>=3?2:em>=1?1:0,`Cash covers ${em.toFixed(1)} months of spending`,'Aim for 3 to 6 months of spending in cash savings.');if(window.RGAP>0)add(fr>=window.RADD?1:0,`Retirement needs ${$f(window.RADD)}/mth more`,fr>=window.RADD?'Your free cash can cover this if you direct it to super.':'Free cash does not cover it yet. See next steps.');else add(2,'Retirement target is on track','Your projected balance meets your spending goal.');if(mb)add(window.MS>0?2:1,`Home finance cleared in ${window.MT}`,window.MS>0?`Extra payments save about ${$f(window.MS)} and ${window.MTS} off the term.`:'Add extra payments to shorten the term.');if(ab[0]>0){const r=ab[1]/ab[0];add(r<.4?2:r<.7?1:0,`Debts are ${Math.round(r*100)}% of assets`,'Lower is stronger. Below 40% is comfortable.')}const sc=Math.round(C.reduce((a,c)=>a+c.s,0)/C.length*50),lb=sc>=80?'Strong':sc>=55?'Fair':'Needs attention';if(h.sur<0)acts.push(`Close the monthly gap first${h.top?', starting with '+h.top.n:''}.`);else if(fr>0)acts.push(`Use the split sliders to direct ${$f(fr)}/mth of free cash, then press the button to apply it.`);if(em<3)acts.push(`Build cash toward ${$f(M(h.tot)*3)} (3 months of spending) before extra investing.`);if(window.RGAP>0&&fr<window.RADD)acts.push('Close the retirement gap with a later retirement age, higher contributions over time or lower retirement spending.');if(h.top)acts.push(`Trim ${h.top.n} toward its typical share to free about ${$f(M(h.top.g))}/mth.`);window.REP={sc,lb,C:C.map(c=>[c.s,c.t,c.d]),acts,fr};const tg=['Act','Watch','Good'],cc=['rd','am','g'];el.innerHTML=`<p class='note' style='margin:0 0 10px'>General information only, not advice. Get your own financial and legal advice. See the disclaimer below.</p><div class='stats'>${stat(sc+'/100','Financial health score',sc<80)}${stat(lb,'Overall',sc<80)}${stat($f(fr)+'/mth','Free cash after budget',fr<0)}${stat($f(window.NW||0),'Net worth',window.NW<0)}</div><h3>Key findings</h3>${C.map(c=>`<div class='fi'><span class='tag ${cc[c.s]}'>${tg[c.s]}</span><div><b>${c.t}</b><br><span class='note'>${c.d}</span></div></div>`).join('')}<h3>Suggested next steps</h3><ol>${acts.map(a=>`<li>${a}</li>`).join('')||'<li>Keep going: your plan looks solid. Review it once a year.</li>'}</ol>`}
+function retire(){const P2=$('tg4').checked,age=n('age'),ret=n('retAge'),life=n('life'),pAge=n('page'),pRet=n('pret'),y1=Math.max(0,ret-age),y2=P2?Math.max(0,pRet-pAge):0,T0=Math.max(y1,y2),ra=age+T0,L=Math.max(1,life-ra),rg=(1+n('g')/100)/(1+n('inf')/100)-1,rr=(1+n('gr')/100)/(1+n('inf')/100)-1,taxK=$('extraType').value==='sac'?0.85:1,ef=+$('extraFreq').value,sf=+$('showFreq').value,c1=n('sal')*n('sg')/100*0.85+n('extra')*ef*taxK,c2=P2?n('psal')*n('psg')/100*0.85+n('pextra')*ef*taxK:0,PP=[[n('bal'),c1,y1],[P2?n('pbal'):0,c2,y2]],annual=n('spend')*(+$('unit').value),need=Math.max(0,annual-n('pension')),T=need*(rr===0?L:(1-Math.pow(1+rr,-L))/rr)*(1+rr);
+const bt=t=>PP.reduce((a,[b,c,y])=>{const u=Math.min(t,y);return a+FV(b,c,rg,u)*Math.pow(1+rg,t-u)},0),fc=t=>PP.reduce((a,[b,c,y])=>a+c*AF(rg,Math.max(0,y-t))*Math.pow(1+rg,T0-Math.max(y,t)),0),nd=t=>Math.max(0,(T-fc(t))/Math.pow(1+rg,T0-t));
+const proj=bt(T0),gap=T-proj,addY=gap>0?gap/AF(rg,Math.max(T0,1))/taxK:0;window.T0=T0;window.RGAP=gap;window.RADD=addY/12;window.RS={T,proj,gap,addY,ra};$('superA').value=Math.round(PP[0][0]+PP[1][0]);
+let h=stat($f(T),`Nest egg needed when ${P2?'you are both':'you are'} retired (your age ${ra})`)+stat($f(proj),'Projected combined super at that point',gap>0);
+if(gap>0){const own=(n('extra')+(P2?n('pextra'):0))*ef;h+=stat($f(addY/sf),`Extra to add ${sf===12?'each month':'each fortnight'} (on top of current extra)`,true)+stat($f((own+addY)/sf),`Total personal contribution needed ${sf===12?'monthly':'fortnightly'}`);if(window.FREE!=null){const fr=window.FREE,ad=addY/12;h+=stat(fr>=ad?'Affordable':`Shortfall ${$f(ad-fr)}/mth`,fr>=ad?`Budget free cash (${$f(fr)}/mth) can cover this`:`Budget free cash is ${$f(fr)}/mth, below the extra needed`,fr<ad)}}else h+=stat('On track','You already meet your target with current contributions');
+let b=proj,a=ra;while(b>0&&a<130){b=(b-need)*(1+rr);a++}
+h+=stat(a>=130?'100+':'Age '+a,`Money lasts until (target age ${life})`,a<life)+stat($f(need/12),'Spending to fund from super per month');$('r1stats').innerHTML=h;
+const ages=[];for(let x=age;x<ra;x+=5)ages.push(x);ages.push(ra);let t='<tr><th>Age'+(P2?' (you / partner)':'')+'</th><th>Projected balance</th><th>Balance needed</th><th>Status</th></tr>';ages.forEach(x=>{const k=x-age,p=bt(k),q=nd(k);t+=`<tr><td>${x}${P2?' / '+(pAge+k):''}</td><td>${$f(p)}</td><td>${$f(q)}</td><td class='${p>=q?'ok':'no'}'>${p>=q?'On track':'Behind by '+$f(q-p)}</td></tr>`});$('tbl').innerHTML=t;
+const A1=[],A2=[];let bb=0;for(let x=age;x<=Math.max(life,ra);x++){const k=x-age;if(k<=T0){bb=bt(k);A2.push([x,nd(k)])}else bb=Math.max(0,(bb-need)*(1+rr));A1.push([x,bb])}
+const mx=Math.max(1,...A1.map(q=>q[1]),...A2.map(q=>q[1])),x0=age,x1=Math.max(life,ra)||age+1,X=v=>50+(v-x0)/(x1-x0||1)*530,Y=v=>200-v/mx*180,pl2=q=>q.map(r=>X(r[0]).toFixed(1)+','+Y(r[1]).toFixed(1)).join(' ');
+$('chart').innerHTML=`<svg viewBox='0 0 600 240' role='img' aria-label='Projected and needed balance by age'><line class='ax' x1='50' y1='200' x2='580' y2='200'/><line class='ax' x1='50' y1='20' x2='50' y2='200'/><text class='t' x='46' y='24' text-anchor='end'>${$f(mx)}</text><text class='t' x='46' y='200' text-anchor='end'>$0</text><text class='t' x='50' y='216'>${x0}</text><text class='t' x='580' y='216' text-anchor='end'>${x1}</text><text class='t' x='${X(ra)}' y='216' text-anchor='middle'>${ra}</text><line class='ax' x1='${X(ra)}' y1='20' x2='${X(ra)}' y2='200' stroke-dasharray='2 4'/><polyline class='l1' points='${pl2(A1)}'/><polyline class='l2' points='${pl2(A2)}'/><line class='l1' x1='60' y1='232' x2='84' y2='232'/><text class='t' x='90' y='236'>Projected balance</text><line class='l2' x1='210' y1='232' x2='234' y2='232'/><text class='t' x='240' y='236'>Balance needed to stay on track</text></svg>`}
+function toast(m){const t=$('toast');t.textContent=m;t.classList.add('on');clearTimeout(window._tt);window._tt=setTimeout(()=>t.classList.remove('on'),2600)}
+function profs(){try{return JSON.parse(localStorage.getItem('irp2')||'{}')}catch(e){return {}}}
+function pl(sel){const p=$('plist'),ks=Object.keys(profs());p.innerHTML='';if(!ks.length){const o=document.createElement('option');o.value='';o.textContent='(none yet)';p.appendChild(o);return}ks.forEach(k=>{const o=document.createElement('option');o.textContent=k;o.value=k;p.appendChild(o)});if(sel)p.value=sel}
+function saveP(){const nm=($('pname').value||'My plan').trim().slice(0,40)||'My plan',p=profs();p[nm]={t:Date.now(),s:getS()};try{localStorage.setItem('irp2',JSON.stringify(p));pl(nm);toast('Saved “'+nm+'” in this browser')}catch(e){toast('Could not save in this browser')}}
+$('save').onclick=saveP;$('fsave').onclick=saveP;
+$('load').onclick=()=>{const k=$('plist').value,p=profs();if(k&&p[k]&&setS(p[k].s)){$('pname').value=k;hist();toast('Loaded “'+k+'”')}else toast('No saved profile selected')};
+$('del').onclick=()=>{const k=$('plist').value,p=profs();if(k&&p[k]){delete p[k];try{localStorage.setItem('irp2',JSON.stringify(p))}catch(e){}pl();toast('Deleted “'+k+'”')}};
+$('reset').onclick=()=>{setS(DS);hist();toast('Back to the starting example')};
+async function getDL(){try{return typeof claude!=='undefined'?await claude.use('downloads'):null}catch(e){return null}}
+function fileSave(name,data,mime){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([data],{type:mime}));a.download=name;document.body.appendChild(a);a.click();a.remove()}
+$('dl').onclick=async()=>{const nm=($('pname').value||'my-plan').trim().replace(/[^a-z0-9-_ ]/gi,'').replace(/\s+/g,'-').toLowerCase()||'my-plan',data=JSON.stringify({app:'irp',v:2,name:$('pname').value,t:Date.now(),s:getS()},null,1);try{const d=await getDL();if(d){await d.save({filename:nm+'.json',data});toast('Profile file ready')}else{fileSave(nm+'.json',data,'application/json');toast('Profile file downloaded')}}catch(e){toast(e&&e.code==='declined'?'Save cancelled':'Could not save the file')}};
+$('open').onclick=()=>$('pfile').click();
+$('pfile').onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(d&&setS(d.s)){$('pname').value=d.name||'My plan';hist();toast('Profile loaded from file')}else toast('That file is not a valid profile')}catch(x){toast('That file is not a valid profile')}e.target.value=''};r.readAsText(f)};
+async function pdf(){const R=window.REP,h=window.RP,s=window.RS,m=$('pdfMsg');if(!R||!h){m.textContent='Fill in your budget first.';return}if(!window.jspdf){m.textContent='The PDF tool did not load. Check your connection and reload.';return}const {jsPDF}=window.jspdf,d=new jsPDF({unit:'pt',format:'a4'}),W=d.internal.pageSize.getWidth(),M=42,cl=x=>String(x).replace(/[^\x20-\x7E]/g,'');let y=0;
+const tx=(t,sz,b,c,ind)=>{d.setFont('helvetica',b?'bold':'normal');d.setFontSize(sz);d.setTextColor(...(c||[23,58,64]));d.splitTextToSize(cl(t),W-2*M-(ind||0)).forEach(l=>{if(y>790){d.addPage();y=50}d.text(l,M+(ind||0),y);y+=sz*1.4})};
+d.setFillColor(11,74,99);d.rect(0,0,W,86,'F');d.setFillColor(255,255,255);d.roundedRect(W-90,19,48,48,12,12,'F');d.setTextColor(11,143,132);d.setFont('helvetica','bold');d.setFontSize(15);d.text('HH',W-66,49,{align:'center'});d.setTextColor(255,255,255);d.setFont('helvetica','bold');d.setFontSize(20);d.text('Financial Health Report',M,42);d.setFont('helvetica','normal');d.setFontSize(10);d.text('Household Horizon  |  Interest-Free Family Finance Planner  |  '+new Date().toLocaleDateString('en-AU'),M,62);y=116;
+const mo=x=>$f(x*h.f/12)+' per month';
+tx(`Overall: ${R.lb} (${R.sc}/100)`,16,1,[11,143,132]);y+=4;tx('Budget',13,1);tx(`Income ${mo(h.inc)}. Expenses ${mo(h.tot)}. Savings ${mo(h.sv)}. Free cash after trimming ${$f(R.fr)} per month.`,10.5);y+=6;
+if(s){tx('Retirement',13,1);tx(`Nest egg needed when you are both retired (your age ${s.ra}): ${$f(s.T)}. Projected: ${$f(s.proj)}. ${s.gap>0?'Extra needed: '+$f(s.addY/12)+' per month.':'You are on track.'}`,10.5);y+=6}
+tx('Position',13,1);tx(`Net worth ${$f(window.NW||0)}. Cash today ${$f(window.CASH||0)}.`+(n('mBal')>0?` Home finance cleared in ${window.MT||'-'}.`:''),10.5);y+=6;
+tx('Key findings',13,1);R.C.forEach(([k,t,ds])=>{tx(['ACT','WATCH','GOOD'][k]+': '+t,10.5,1,[[200,60,40],[200,120,20],[11,143,132]][k]);tx(ds,10,0,[80,100,106],12)});y+=6;
+tx('Suggested next steps',13,1);R.acts.forEach((a,i)=>tx((i+1)+'. '+a,10.5));y+=10;tx('Your inputs and assumptions',13,1);y+=2;tx('Partner included: '+($('tg4').checked?'Yes':'No'),9,0,[60,80,86],8);['m0','m1','m2','m3'].forEach(id=>{const sec=$(id);if(!sec||sec.classList.contains('hide'))return;y+=4;tx(sec.querySelector('h2').textContent.split('. ').slice(1).join('. ')||'Section',11,1,[11,143,132]);sec.querySelectorAll('input:not([type=hidden]),select').forEach(e=>{if(e.closest('.hide,.hm'))return;const row=e.closest('.row'),fld=e.closest('.f'),lab=row?row.querySelector('.nm').textContent:(fld?fld.querySelector('label').firstChild.textContent:'');let v=e.tagName==='SELECT'?e.selectedOptions[0].text:e.value;if(v==='')return;if(e.type==='range')v=v+'%';else if(e.tagName!=='SELECT'&&!isNaN(v)&&(row||lab.indexOf('$')>-1))v=$f(+v);const L=cl(lab).split('($)').join('').split('  ').join(' ').trim();d.setFont('helvetica','normal');d.setFontSize(9);d.setTextColor(60,80,86);if(y>800){d.addPage();y=50}d.text(d.splitTextToSize(L,W-2*M-150)[0],M+8,y);d.text(cl(v),W-M,y,{align:'right'});y+=12.5})});y+=10;tx('Important notice',11,1,[200,60,40]);tx('This report is general information and educational material only. It is not financial product, investment, superannuation, tax, legal or religious advice and does not consider your personal objectives, financial situation or needs. Figures are estimates in todays dollars based on the assumptions you entered and simplified models; actual outcomes will differ and rates and laws change. Seek your own advice from a licensed financial adviser, registered tax agent, lawyer and, where relevant, a qualified religious adviser before making decisions. To the maximum extent permitted by law, the operator of this tool accepts no liability for any loss arising from its use or from reliance on this report. Nothing here limits rights you have under the Australian Consumer Law.',8.5,0,[100,120,125]);
+const name='financial-health-report-'+new Date().toISOString().slice(0,10)+'.pdf';try{const dl=await getDL();if(dl){await dl.save({filename:name,data:d.output('blob')});m.textContent='PDF ready.'}else{d.save(name);m.textContent='PDF downloaded.'}}catch(e){m.textContent=e&&e.code==='declined'?'Download cancelled.':'Could not save the PDF.'}}
+$('pdf').onclick=pdf;
+function all(){budget();donut();retire();assets();mort();vis();snap();report();}
+document.addEventListener('input',e=>{const t=e.target,v=t.value;if(t.id==='preset'&&v){$('spend').value=v;$('unit').value='1'}if(t.id==='bHome')$('mBal').value=v;if(t.id==='mBal')$('bHome').value=v;if(t.id==='sal')$('bsal1').value=v;if(t.id==='psal')$('bsal2').value=v;all();clearTimeout(ht);ht=setTimeout(hist,600)});
+document.addEventListener('change',()=>{all();hist()});
+all();
+const DS=getS();hist();pl();{const ks=Object.keys(profs());if(ks.length)$('profMsg').textContent=ks.length+' saved profile(s) found in this browser. Pick one and press Load.'}
+</script>
 </body>
 </html>
