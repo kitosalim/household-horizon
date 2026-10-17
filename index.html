@@ -254,7 +254,7 @@ function all(){budget();donut();retire();assets();mort();vis();snap();report();}
 document.addEventListener('input',e=>{const t=e.target,v=t.value;if(t.id==='preset'&&v){$('spend').value=v;$('unit').value='1'}if(t.id==='bHome')$('mBal').value=v;if(t.id==='mBal')$('bHome').value=v;if(t.id==='sal')$('bsal1').value=v;if(t.id==='psal')$('bsal2').value=v;all();clearTimeout(ht);ht=setTimeout(hist,600)});
 document.addEventListener('change',()=>{all();hist()});
 all();
-const DS=getS();hist();pl();{const ks=Object.keys(profs());if(ks.length)$('profMsg').textContent=ks.length+' saved profile(s) found in this browser. Pick one and press Load.'}
+try{history.scrollRestoration='manual'}catch(e){}const toTop=()=>{if(!location.hash)window.scrollTo({top:0,left:0,behavior:'instant'})};toTop();window.addEventListener('load',toTop);window.addEventListener('pageshow',toTop);const DS=getS();hist();pl();{const ks=Object.keys(profs());if(ks.length)$('profMsg').textContent=ks.length+' saved profile(s) found in this browser. Pick one and press Load.'}
 </script>
 </body>
 </html>
